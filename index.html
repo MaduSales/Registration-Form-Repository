@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <section class="container">
+        <header>Registration Form</header>
+        <form action="post" class="form">
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter full name" required>
+            </div>
+            <div class="input-box">
+                <label>Email Adresss</label>
+                <input type="email" placeholder="Enter your email" required>
+            </div>
+            <div class="column">
+                <div class="input-box">
+                    <label>Phone number</label>
+                    <input type="tel" placeholder="Phone number" required>
+                </div>
+                <div class="input-box">
+                    <label>Birth Date</label>
+                    <input type="date" placeholder="Enter your birth date" required>
+                </div>
+            </div>
+            <div class="gender-box">
+                <h3>Gender</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check" name="gender">
+                        <label for="check-male">Male</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check" name="gender">
+                        <label for="check-female">Female</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check" name="gender">
+                        <label for="check-other">Prefer not to say</label>
+                    </div>
+                </div>
+            </div>
+            <div class="input-box adress">
+                <label>Adress</label>
+                <input type="text" placeholder="Enter your street" required>
+                <input type="text" placeholder="Enter your street line 2" required>
+                <div class="column">
+                    <div class="select-box">
+                        <select>
+                            <option hidden>Country</option>
+                            <option>EUA</option>
+                            <option>Brazil</option>
+                            <option>Japan</option>
+                            <option>India</option>
+                            <option>Germany</option>
+                            <option>Nepal</option>
+                            <option>France</option>
+                            <option>China</option>
+                            <option>Korea</option>
+                            <option>Russia</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="text" placeholder="Enter your city" required>
+                <div class="column">
+                    <input type="text" placeholder="Enter your region" required>
+                <input type="text" placeholder="Enter your postal code" required>
+                </div>
+            </div>
+            <button>Sumbit</button>
+        </form>
+    </section>
+</body>
+</html>
