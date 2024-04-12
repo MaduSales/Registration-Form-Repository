@@ -7,7 +7,7 @@ Projeto com HTML e CSS de um formulário dinâmico, responsivo e detalhado!
 Projeto construído durante o curso PROPROFISSÃO do Instituto PROA
 
 ## Acesso
-![Clique aqui para acessar! :)] (https://madusales.github.io/Registration-Form-Repository/)
+[Clique aqui para acessar! :)](https://madusales.github.io/Registration-Form-Repository/)
 
 
 ## Tecnologias
@@ -17,5 +17,5 @@ Projeto construído durante o curso PROPROFISSÃO do Instituto PROA
 
 
 ## Contato
-(LinkedIn)
+[(LinkedIn)](www.linkedin.com/in/maria-eduarda-de-sales-78a04221b)
 E-mail: maria.esmiranda08@gmail.com
